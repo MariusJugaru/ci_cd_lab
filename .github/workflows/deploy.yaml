@@ -92,4 +92,4 @@ jobs:
 
       # Step 5: Push the Docker image to GitHub Container Registry
       - name: Push Docker image
-        run: docker push ghcr.io/mariusjugaru/ci_cd_lab/:latest
+        run: docker push ghcr.io/mariusjugaru/ci_cd_lab:latest
